@@ -1,0 +1,41 @@
+This project focuses on detecting fraudulent credit card transactions using machine learning models. Fraud detection is a critical challenge because datasets are highly imbalanced — only a small fraction of transactions are fraudulent. The goal is to build models that can effectively identify fraud while minimizing false alarms.
+
+⚙️ Models Used
+🔹 Support Vector Classifier (SVC)  
+Finds the optimal boundary (hyperplane) to separate fraud vs non‑fraud transactions. Works well with complex, high‑dimensional data.
+
+🔹 Logistic Regression  
+A simple yet effective baseline model that predicts the probability of fraud based on transaction features.
+
+
+📊 Workflow
+Data Preprocessing
+
+Scaling features
+
+Handling class imbalance
+
+Splitting into training and testing sets
+
+Model Training
+
+Training SVC and Logistic Regression models
+
+Comparing their performance
+
+Evaluation Metrics
+
+Precision, Recall, F1‑Score, ROC‑AUC
+
+Focus on Recall (catching frauds) and Precision (avoiding false positives)
+
+
+💡 Key Insights
+Logistic Regression provides a fast baseline and interpretable results.
+
+SVC achieves better separation between fraud and non‑fraud but is more computationally expensive.
+
+Evaluation shows that precision and recall are more meaningful than accuracy in fraud detection tasks.
+
+🎯 Outcome
+This project demonstrates how machine learning can be applied to financial datasets to detect fraudulent transactions. By comparing multiple models, we highlight the trade‑offs between simplicity, interpretability, and predictive power.
